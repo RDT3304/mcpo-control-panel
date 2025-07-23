@@ -23,7 +23,7 @@ WORKDIR /app
 
 # Expose the port (default is 8083, can be overridden by MCPO_MANAGER_PORT)
 EXPOSE 8083
-EXPOSE 8084
+EXPOSE 8082
 
 # Set environment variables with defaults
 ENV MCPO_MANAGER_HOST=0.0.0.0
